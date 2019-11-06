@@ -20,3 +20,51 @@ Also, they are using different dialects, such as −
 - Allows users to create and drop databases and tables.
 - Allows users to create view, stored procedure, functions in a database.
 - Allows users to set permissions on tables, procedures and views.
+
+# SQL Process
+
+<img src="https://www.tutorialspoint.com/sql/images/sql-architecture.jpg" align="right">
+
+When you are executing an SQL command for any RDBMS, the system determines the best way to carry out your request and SQL engine figures out how to interpret the task.
+
+There are various components included in this process.
+
+These components are
+- Query Dispatcher
+- Optimization Engines
+- Classic Query Engine
+- SQL Query Engine, etc.
+A classic query engine handles all the non-SQL queries, but a SQL query engine won't handle logical files.
+
+Following is a simple diagram showing the SQL Architecture −
+
+# SQL Commands
+The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. These commands can be classified into the following groups based on their nature −
+
+## DDL - Data Definition Language
+Sr.No.	 | Command    | Description
+| ------ | -----------|--------------------------------------------------------------------------------- |
+| 1	     | CREATE     | Creates a new table, a view of a table, or other object in the database.         |
+| 2	     | ALTER      | Modifies an existing database object, such as a table.                           |
+| 3	     | DROP       | Deletes an entire table, a view of a table or other objects in the database.     |
+
+## DML - Data Manipulation Language
+Sr.No.	 | Command    | Description
+| ------ | -----------|--------------------------------------------------------------------------------- |
+| 1      | SELECT     | Retrieves certain records from one or more tables.                               |
+| 2 	   | INSERT     | Creates a record.                                                                |
+| 3	     | UPDATE     | Modifies records.                                                                |
+| 4      | DELETE     | Deletes records.                                                                 |
+
+## DCL - Data Control Language
+Sr.No.	 | Command    | Description
+| ------ | -----------|--------------------------------------------------------------------------------- |
+| 1	     | GRANT      | Gives a privilege to user.                                                       |
+| 2      | REVOKE     | Takes back privileges granted from user.                                         |
+
+## TCL - Transaction Control Language
+Sr.No.	 | Command    | Description
+| ------ | -----------|--------------------------------------------------------------------------------- |
+| 1	     | COMMIT     | Commit changes to database                                                       |
+| 2      | ROLLBACK   | Rolled back the unsaved DB changes                                               |
+| 3      | SAVEPOINT  | Creates a savepoint                                                              |
