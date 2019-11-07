@@ -68,3 +68,28 @@ Sr.No.	 | Command    | Description
 | 1	     | COMMIT     | Commit changes to database                                                       |
 | 2      | ROLLBACK   | Rolled back the unsaved DB changes                                               |
 | 3      | SAVEPOINT  | Creates a savepoint                                                              |
+
+# CREATE DATABASE
+Syntax
+The basic syntax of this CREATE DATABASE statement is as follows −
+    
+    CREATE DATABASE DatabaseName;
+
+Always the database name should be unique within the RDBMS.
+
+Example
+If you want to create a new database <testDB>, then the CREATE DATABASE statement would be as shown below −
+    
+    SQL> CREATE DATABASE testDB;
+    
+# DROP DATABASE
+Syntax
+The basic syntax of DROP DATABASE statement is as follows −
+
+    DROP DATABASE DatabaseName;
+Always the database name should be unique within the RDBMS.
+
+Example
+If you want to delete an existing database <testDB>, then the DROP DATABASE statement would be as shown below −
+
+    SQL> DROP DATABASE testDB;
